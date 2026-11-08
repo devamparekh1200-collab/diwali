@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Diyas | Happy Diwali, Diya</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500;1,700&family=Caveat:wght@500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="sky" aria-hidden="true"></div>
+<nav class="navbar navbar-expand-sm navbar-dark"><div class="container">
+<a class="navbar-brand" href="home.html">🪔 Diya ♥ Devam</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Menu"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nav"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="home.html">Home</a></li><li class="nav-item"><a class="nav-link active" href="diyas.html">Diyas</a></li><li class="nav-item"><a class="nav-link" href="letters.html">Letters</a></li><li class="nav-item"><a class="nav-link" href="wish.html">My Wish</a></li></ul></div></div></nav>
+<main class="container page"><section>
+<h2>Light them, baby</h2>
+<p class="sub">Every diya holds a picture of us.</p>
+<div class="grid row row-cols-5 g-2 mx-auto" id="grid"></div>
+<div class="bar d-flex justify-content-center align-items-center gap-3 flex-wrap">
+<span id="count">0 of 10 lit</span>
+<button class="btn btn-outline-warning rounded-pill ghost" id="all">Light them all</button>
+</div>
+<article id="letter" aria-live="polite"><div class="ph"><i>♥</i></div><small>Tap a diya to see a picture</small></article>
+<div id="end"><h2>All ten are lit</h2><p>Now open the letters I wrote for you, baby.</p><a class="btn btn-warning rounded-pill px-4 go" href="letters.html">Read my letters</a></div>
+</section></main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="common.js"></script>
+<script src="diyas.js"></script>
+</body>
+</html>
